@@ -1,0 +1,17 @@
+name: motus-migration-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pandas>=1.5
+  - networkx>=2.8
+  - folium>=0.14
+  - matplotlib>=3.6
+  - seaborn>=0.12
+  - jupyterlab>=3.5
+  - notebook>=6.5
+  - pip
+  - pip:
+      - geopy>=2.3  # Optional: for geodesic distance calculations
